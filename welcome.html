@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+<title>National Bank Of India</title>
+<style>
+body{
+	margin:0;
+	border-width:0;
+	font-family: 'Arvo',sans-serif;
+	background-image:url(Capture41.jpg), url(logo-back.jpg);
+	background-repeat:no-repeat, repeat;
+	background-size:auto, auto;
+	background-position:center, inherit;
+}
+
+.nav{
+	margin:0;;
+	border-width:0;
+	width: 100%;
+	z-index: 1;
+}
+
+#title{
+	font-family:BlackChancery;
+	font-size: 70px;
+	color: #fff;
+	position:absolute;
+	left: 39%;
+	top: -7%;
+}
+.nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding-top: 25px;
+	padding-bottom:25px;
+    overflow: hidden;
+    background-color: #36b452;
+}
+
+.nav li{
+	float:left;
+}
+
+.nav li a{
+	display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+	padding-right:25px;
+	padding-left:25px;
+    text-decoration: none;
+	border-right:thick #FFFFFF;
+	margin-right: 40px;
+	font-family:'Arvo',serif;
+	font-size: 20px;
+}
+
+.nav li a:hover {
+    background-color: #FFFFFF;
+	border-right:1px solid #FFFFFF;
+	color: #666;
+	border-radius:15px;
+}
+.nav li a.active{
+	color: #666;
+	margin-right:40px;
+    background-color: #FFFFFF;
+	border-right:1px solid #FFFFFF;
+	border-radius:15px;
+}
+
+.social{
+position:absolute;
+right: 1%;	
+margin-top: -0.5%;
+}
+.intro{
+	position:static;
+	font-family:'Arvo',sans-serif;
+	color: #FFFFFF;
+	font-size:18px;
+	width:auto;
+	height:750px;
+	animation-name: image1;
+	animation-iteration-count:infinite;
+	animation-duration: 10s;
+	animation-timing-function:ease-out;
+}
+@keyframes image1{
+	0%{
+		background-image:url(slide01.jpg);
+		background-size: cover;
+	}
+	33%{
+		background-image:url(slide01.jpg);
+		background-size: cover;
+	}
+	33.001%{
+		background-image: url(slide02.jpg);
+		background-size: cover;
+	}
+	66%{
+		background-image:url(slide02.jpg);
+		background-size: cover;
+	}
+	66.001%{
+		background-image:url(slide03.jpg);
+		background-size: cover;
+	}
+	99.99%{
+		background-image:url(slide03.jpg);
+		background-size: cover;
+	}
+	100%{
+		background-image:url(slide01.jpg);
+		background-size: cover;
+	}
+}
+
+.button{
+	width:auto;
+	height:auto;
+	alignment-adjust:middle;
+}
+	
+#login{
+	position: relative;
+	display:block;
+	width:100px;
+	background-color: #ffffff;
+	color: #36b452;
+	border-color: #36b452;
+	border-radius: 5px;
+	border-width: 1.5px;
+	border-style: solid;
+	font-family: 'Arvo',sans-serif;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 15px;
+	left: 40%;
+	margin-top: 3%;
+	margin-bottom:-10px;
+	padding: 5px 20px 5px 20px;
+	text-align:center;
+	transition-duration:1s;
+}
+#login:hover{
+	left:0%;
+	background-color:#36b452;
+	border-radius:none;
+	color:#ffffff;
+	width:100%;
+}
+#SignUp{
+	position:relative;
+	display:block;
+	width:100px;
+	background-color:#ffffff;
+	color: #36b452;
+	border-color:#36b452;
+	border-radius: 5px;
+	border-width: 1.5px;
+	border-style:solid;
+	font-family:'Arvo',sans-serif;
+	font-size:24px;
+	cursor:pointer;
+	position: relative;
+	left: 40%;
+	padding: 5px 13px 5px 10px;
+	text-align:center;
+	transition-duration:1s;
+}
+#SignUp:hover{
+	left:0%;
+	background-color:#36b452;
+	border-radius:none;
+	color:#ffffff;
+	width:100%;
+}
+.goal1{
+	position:absolute;
+	left:16%;
+	margin-top: 4%;
+	margin-bottom: 100px;
+}
+#pig{
+	margin-left:5%;
+	margin-right:5%;
+	float:left;
+}
+.goalhead1{
+	position:absolute;
+	right:20%;
+	display:block;
+	word-wrap:normal;
+	font-family:'Arvo',sans-serif;
+	color:#333;
+	font-size:39px;
+}
+p.goaltext1{
+	position:relative;
+	right: -1%;
+	margin-top:7%;
+	margin-right:20%;
+	display:block;
+	word-wrap:normal;
+	font-family:'Arvo',serif;
+	color:#666666;
+	font-size:20px;
+}
+.goalhead2{
+	position:absolute;
+	display:block;
+	margin-top: 2.5%;
+	margin-left:6%;
+	word-wrap:normal;
+	font-family:'Arvo',serif;
+	color:#fff;
+	font-size:40px;
+}
+p.goaltext2{
+	position:relative;
+	margin-top: 8%;
+	margin-left:6%;
+	margin-right: 70%;
+	display:block;
+	word-wrap:normal;
+	font-family:'Arvo',serif;
+	color: #CCC;
+	font-size:24px;
+}
+.imggoal2{
+	position:absolute;
+	left:40%;
+	width: 80%;
+	height: 100%;
+	overflow:hidden;
+	margin-right: 5%;	
+}
+.goal2{
+	margin-top: 25%;
+	position:absolute;
+	left:0%;
+	width: 100%;
+	height: 60%;
+	overflow:hidden;
+	background-color:#36b452;
+}
+#goal2{
+	position:absolute;
+	width: auto;
+	height: auto;
+	float:left;
+}
+
+.goalhead3{
+	position:absolute;
+	display:block;
+	margin-left: 60%;
+	margin-right: 10%;
+	word-wrap:normal;
+	font-family:'Arvo',sans-serif;
+	color:#fff;
+	font-size:40px;
+}
+p.goaltext3{
+	position:absolute;
+	top: 25%;
+	margin-right:10%;
+	margin-left: 60%;
+	display:block;
+	word-wrap:normal;
+	font-family:'Arvo',sans-serif;
+	color:#CCC;
+	font-size:24px;
+}
+.imggoal3{
+	position:absolute;
+	right:30%;
+	width: 80%;
+	height: 100%;
+	overflow:hidden;
+	}
+.goal3{
+	margin-top: 55.65%;
+	position:absolute;
+	right:0%;
+	width: 100%;
+	height: 60%;
+	overflow:hidden;
+	background-color:#36c452;
+}
+#goal3{
+	position:absolute;
+	width: auto;
+	height: auto;
+	float:left;
+}
+.foot{
+	background-color:#333;
+	color: #999999;
+	width: 100%;
+	height: 25%;
+	position:absolute;
+	top: 272.9%;
+}
+.copy pre{
+	color: #fff;
+	font-size:36px;
+	font-family:BlackChancery;
+	position:absolute;
+	left: 10%;
+}
+.copy p{
+	font-size: 24px;
+	position: absolute;
+	top: 32%;
+	left: 10%;
+	word-wrap:normal;
+}
+.cont{
+	font-size: 19px;
+	position: absolute;
+	left: 35%;
+}
+.cont p{
+	font-size: 24px;
+	color: #fff;
+	left: 27%;
+	position:relative;
+}
+.quick{
+	position:absolute;
+	right: 13%;
+	font-size:19px;
+}
+.quickly li{
+	list-style-type:none;
+}
+.quickly li a{
+	text-decoration:none;
+	color: #999;
+}
+.quickly li a:hover{
+	color: #0F3;
+}
+</style>
+</head>
+
+<body>
+<div class="nav">
+<ul class="navtitle">
+<li><a href="welcome.html" class="active">Home</a></li>
+<li><a href="about_us.html">About Us</a></li>
+<li><a href="faq.html">FAQs</a></li>
+<li><a href="Contact us.html">Contact Us</a></li>
+<li id="title"><p>National Bank</p></li>
+<div class="social">
+<li><a href="http://www.twitter.com" id="twit"><i class="fa fa-twitter fa-2x"></i></a></li>
+<li><a href="http://plus.google.com" id="twit"><i class="fa fa-google-plus fa-2x"></i></a></li>
+<li><a href="http://www.facebook.com" id="twit"><i class="fa fa-facebook fa-2x"></i></a></li>
+<li><a href="http://www.pinterest.com" id="twit"><i class="fa fa-pinterest fa-2x"></i></a></li>
+<li><a href="http://www.linkedin.com" id="twit"><i class="fa fa-linkedin fa-2x"></i></a></li>
+</div>
+</ul>
+</div>
+<div class="intro">
+</div>
+<form class="log">
+<div class="button">
+<input type="button" id="login" value="Login" onclick="location.href = 'login_page.php'"><br />
+<input type="button" id="SignUp" value="SignUp" onclick="location.href = 'sign_up.php'">
+</div>
+</form>
+<div class="goal1">
+<img src="pig.JPG" id="pig"/>
+<div class="goalhead1">
+<p>We help you in your success</p></div>
+<p class="goaltext1">National Bank believes strong businesses build strong communities. We understand your business and know how to help you get the most out of it. Our bankers have an in-depth knowledge of your community and local economy and are committed to helping your businesses succeed and grow. Our banking experts can help you start a new business, finance your operation or help in investments.</p>
+</div>
+<div class="goal2">
+<div class="imggoal2">
+<img src="goal2.jpg" id="goal2" />
+</div>
+<div class="goalhead2">
+<p>Get a Quick Credit Card</p></div>
+<p class="goaltext2">Credit Card offers up to 57 days interest-free credit too - helping you to manage your cash flow and budget. A Credit Card is a great way of preparing for the future and building up a good credit history while studying, making it easier to get credit when you really need it.</p>
+</div>
+<div class="goal3">
+<div class="imggoal3">
+<img src="bg02.jpg" id="goal3" />
+</div>
+<div class="goalhead3">
+<p>The best way to save your time and money</p></div>
+<p class="goaltext3">National bank will save your time, money and improve the way you manage your business finances. You will have the control you need, with multiple disbursement and payment options, along with many other cash management features to help you optimize your business cash flow.</p>
+</div>
+<footer class="foot">
+<div class="copy">
+<pre>National Bank</pre>
+<p>© 2016 All rights Reserved</p>
+</div>
+<div class="cont">
+<p>Our Locations</p>
+<div class="prequal">
+<pre>2304, Sardar Marg, East Delhi-200452;</pre>
+<pre>12/32, Modern Plaza, Jayanagar, Bangalore-300132;</pre>
+</div> 
+</div>
+<div class="quick">
+<ul class="quickly">
+<p style="font-size:28px; color: #fff">Quick Links</p>
+<li><a href="welcome.html">Home</a></li>
+<li><a href="about_us.html">About Us</a></li>
+<li><a href="faq.html">FAQs</a></li>
+<li><a href="Contact us.html">Contact Us</a></li>
+</ul>
+</div>
+</footer>
+</body>
+</html>
